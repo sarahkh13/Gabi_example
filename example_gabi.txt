@@ -1,0 +1,18 @@
+ls [A-Z]*
+# lists the files and directories begining with A from Z in the working directory, and also show all the contents of the folders. The [A-Z] argument means the first character of the name of files/folder and * means anything after the first character (exept hidden files). 
+
+cp *.sh /tmp
+# copy all the files with ".sh" and past in a directory named tmp (generaly means temporary folder)
+
+man pwd
+# go to the help page of the pwd command
+
+cd ∼
+# change the working directory to home
+
+mkdir -p /test1/test2/test3
+# creates a new diretory (test3) and also the folders that contain it (parent folders) 
+
+cp -r /tmp .
+# copy a "tmp"directory and all directories anf files inside of it (-r argument means recursive) to the current working directory (".")
+
